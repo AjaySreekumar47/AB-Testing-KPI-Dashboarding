@@ -1,0 +1,22 @@
+AB-Testing-KPI-Dashboarding/
+│
+├── README.md                    # Project overview and structure
+├── requirements.txt             # Python libraries used
+│
+├── data/
+│   ├── session_df.csv           # (Optional) Raw session-level data
+│   ├── daily_kpis.csv           # Daily KPI metrics
+│   ├── overall_kpis.csv         # Overall KPIs (control vs variant)
+│   ├── device_ctr.csv           # CTR by device
+│   ├── region_ctr.csv           # CTR by region
+│   └── age_ctr.csv              # CTR by age group
+│
+├── notebooks/
+│   └── ab_test_simulation.ipynb # Colab or Jupyter notebook for simulation + analysis
+│
+├── dashboard/
+│   ├── AB_Test_Dashboard.pbix   # Power BI file
+│   └── AB_Test_Dashboard.pdf    # Exported PDF dashboard
+│
+└── images/                      
+    └── ctr_by_region.png
